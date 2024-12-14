@@ -12,7 +12,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.weatherapp.ui.components.ActionBar
+import com.example.weatherapp.ui.components.AirQuality
 import com.example.weatherapp.ui.components.DailyForeCast
+import com.example.weatherapp.ui.components.WeeklyForecast
 import com.example.weatherapp.ui.theme.ColorBackground
 
 @Preview
@@ -38,6 +40,17 @@ fun WeatherScreenPreview() {
                     .height(12.dp)
             )
             DailyForeCast()
+            Spacer(
+                modifier = Modifier
+                    .height(16.dp)
+            )
+            AirQuality()
+            Spacer(
+                modifier = Modifier
+                    .height(16.dp)
+            )
+            WeeklyForecast()
+
 
         }
     }

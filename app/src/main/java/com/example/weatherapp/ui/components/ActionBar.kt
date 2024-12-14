@@ -27,7 +27,6 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.weatherapp.R
 import com.example.weatherapp.ui.theme.ColorGradient1
@@ -38,7 +37,6 @@ import com.example.weatherapp.ui.theme.ColorSurface
 import com.example.weatherapp.ui.theme.ColorTextPrimary
 import com.example.weatherapp.ui.theme.ColorTextSecondaryVariant
 
-@Preview
 @Composable
 fun ActionBar() {
     Row(

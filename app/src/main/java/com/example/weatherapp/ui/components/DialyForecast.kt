@@ -36,7 +36,6 @@ import com.example.weatherapp.ui.theme.ColorTextSecondary
 import com.example.weatherapp.ui.theme.ColorTextSecondaryVariant
 import com.example.weatherapp.ui.theme.ColorWindForecast
 
-@Preview
 @Composable
 fun DailyForeCast(
     modifier: Modifier = Modifier,
