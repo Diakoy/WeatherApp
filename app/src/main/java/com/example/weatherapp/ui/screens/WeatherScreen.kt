@@ -1,6 +1,5 @@
 package com.example.weatherapp.ui.screens
 
-import android.widget.Space
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -19,7 +18,7 @@ import com.example.weatherapp.ui.theme.ColorBackground
 
 @Preview
 @Composable
-fun WeatherScreenPreview() {
+fun WeatherScreen() {
     Scaffold(
         modifier = Modifier
             .fillMaxSize(),
@@ -52,12 +51,9 @@ fun WeatherScreenPreview() {
             WeeklyForecast()
 
 
+
         }
     }
 }
 
 
-@Composable
-fun WeatherScreen() {
-
-}
